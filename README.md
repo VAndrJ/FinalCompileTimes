@@ -22,26 +22,26 @@ xcodebuild -project FinalCompileTimeExample.xcodeproj -scheme FinalCompileTimeEx
 Total of 12 runs. Dropped 1 minimum and 1 maximum value. Averaged the remaining 10 runs.
 
 ## num_classes = 1024 (2049 total classes):
-
+---
 - Debug without keyword:
 ### 33.93 s.
 - Debug with `final` keyword:
-### 34.04 s. (~ +0.32% time)
-
+### 34.04 s. (~ +0.32%)
+---
 - Release without keyword:
 ### 41.73 s.
 - Release with `final` keyword:
-### 42.15 s. (~ +1% time)
-
+### 42.15 s. (~ +1%)
+---
 ## num_classes = 2048 (4097 total classes):
-
+---
 - Debug without keyword:
 ### 80.05 s. 
 - Debug with `final` keyword:
-### 80.21 s. (~ +0.2% time)
-
+### 80.21 s. (~ +0.2%)
+---
 - Release without keyword:
 ### 262.56 s.
 - Release with `final` keyword:
-### 259.96 s. (~ -0.99% time)
-
+### 259.96 s. (~ -0.99%)
+---
